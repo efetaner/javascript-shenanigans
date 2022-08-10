@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href='C:\Users\efeta\Desktop\BasketballTimer\kekw.ttf' rel='stylesheet' type='text/css'>
+
+
+    </head>
+    <body>
+        <div class="container">
+            <div class="score home">
+                <h3>HOME</h3>
+                <p id="home-paragraph">0</p>
+                <button id="home-btn-one" class="add plus-one" onclick="hincrementone()">+1</button>
+                <button id="home-btn-two" class="add plus-two" onclick="hincrementtwo()">+2</button>
+                <button id="home-btn-three" class="add plus-three" onclick="hincrementthree()">+3</button>
+            </div>
+            <div class="score away">
+                <h3>GUEST</h3>
+                <p id="away-paragraph">0</p>
+                <button class="add plus-one" onclick="aincrementone()">+1</button>
+                <button class="add plus-two" onclick="aincrementtwo()">+2</button>
+                <button class="add plus-three" onclick="aincrementthree()">+3</button>
+            </div>
+        </div>
+        <div class="reset-div">
+            <button onclick="hdecrementone()" class="reset minus-one">-1</button>
+            <button class="reset" onclick="resetscore()">RESET</button>
+            <button onclick="adecrementone()"" class="reset minus-one">-1</button>
+        </div>
+        
+        
+        <script src="index.js"></script>
+    </body>
+</html>
